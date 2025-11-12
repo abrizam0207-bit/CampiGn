@@ -8,6 +8,11 @@ body {
   min-height: 100vh;
   font-family: Poppins, sans-serif;
   overflow-x: hidden;
+  background: radial-gradient(
+    circle,
+    rgba(251, 154, 63, 1) 19%,
+    rgba(252, 70, 70, 1) 73%
+  );
 }
 header {
   display: flex;
@@ -81,8 +86,7 @@ span {
   object-fit: cover;
 }
 #about {
-  height: 200vh;
-  background-color: purple;
+  /* height: 200vh; */
 }
 .navigation a {
   text-decoration: none;
